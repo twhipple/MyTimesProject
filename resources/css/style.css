@@ -1,0 +1,44 @@
+
+
+/* header */
+
+#logo {
+  color: MediumAquamarine;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container1 {
+  display: flex;
+  align-content: flex-start;
+  padding-left: 25px;
+}
+
+.container2 {
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-around;
+  padding-right: 25px; 
+}
+
+.header li {
+  display: inline-flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+a {
+  margin: auto 20px;
+
+}
