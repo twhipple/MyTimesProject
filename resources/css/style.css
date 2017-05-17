@@ -27,7 +27,7 @@
   display: flex;
   align-content: flex-start;
   justify-content: space-around;
-  padding-right: 25px; 
+  padding-right: 25px;
 }
 
 .header li {
@@ -40,5 +40,63 @@
 
 a {
   margin: auto 20px;
+}
 
+
+/* main */
+
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column_large {
+  width: 630px;
+  height: auto;
+  border: 1px solid black
+}
+
+.column_medium {
+  width: 300px;
+  border: 1px solid blue
+}
+
+.column_small {
+  width: 240px;
+  border: 1px solid green
+}
+
+.mother {
+  border: 1px solid black
+}
+
+.orca {
+  border: 1px solid black
+}
+
+.burger {
+  border: 1px solid black
+}
+
+#mother {
+  background-image: url("./resources/images/img-story-main.png");
+}
+
+#fall {
+  background-image: url("./resources/images/img-story-2.png");
+}
+
+#cookie {
+  background-image: url("./resources/images/img-news-bite.png");
+}
+
+#hipster {
+  background-image: url("./resources/images/img-story-3.png");
+}
+
+#cats {
+  background-image: url("./resources/images/img-story-1.png");
+}
+
+#bite {
 }
