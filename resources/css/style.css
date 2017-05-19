@@ -104,11 +104,11 @@ p {
 }
 
 #mother {
-  background-image: url("./resources/images/img-story-main.png");
+  background-image: url(../images/img-story-main.png);
 }
 
 #fall {
-  background-image: url("../images/img-story-2.png");
+  background-image: url(../images/img-story-2.png);
   color: white;
 }
 
